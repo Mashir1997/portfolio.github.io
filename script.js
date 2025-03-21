@@ -44,7 +44,7 @@ function closemenu(){
       .then(response => {msg.innerHTML="Youre message sent successfully"
         setTimeout(() => {
           msg.innerHTML = ""
-        },500);
+        },200);
         form.reset()
       })
       .catch(error => console.error('Error!', error.message))
